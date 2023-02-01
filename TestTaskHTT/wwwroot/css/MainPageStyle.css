@@ -1,0 +1,28 @@
+﻿html, body {
+    min-height:100%;
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    display: grid;
+    grid-template: 1fr 1fr/1fr;
+    grid-template-areas:
+        "variant1"
+        "variant2";
+}
+
+.variant1 {
+    grid-area: variant1;
+    margin: 20px;
+}
+
+.variant2 {
+    grid-area: variant2;
+    margin: 20px;
+}
+
+.variant2 div{
+    cursor:pointer;
+}
+
